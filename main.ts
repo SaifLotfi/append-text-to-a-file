@@ -1,15 +1,15 @@
 import { Notice, Plugin, TFile } from "obsidian";
 
-interface ExamplePluginSettings {
+interface AppendTextToAFilePlugin {
 	appendingDestination: string | null;
 }
 
-const DEFAULT_SETTINGS: ExamplePluginSettings = {
+const DEFAULT_SETTINGS: AppendTextToAFilePlugin = {
 	appendingDestination: null,
 };
 
 export default class ExamplePlugin extends Plugin {
-	settings: ExamplePluginSettings;
+	settings: AppendTextToAFilePlugin;
 
 	async onload() {
 		// Load plugin settings
