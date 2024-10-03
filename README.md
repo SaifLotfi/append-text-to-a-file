@@ -10,7 +10,7 @@ When I read my notes, I want to keep some highlights in a file, so I can view th
 
 2. Add Selection or Current line under cursor to the Destination File :
 choose the command from the command menu:
-![append commands](./assets/append commands.png)
+![append commands](./assets/append-commands.png)
 
 # Todo :
 - [ ]  add icon for this commands to make it easier and faster.
